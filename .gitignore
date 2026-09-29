@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Pipeline-generated data
+.pipeline/
+tmp/
+out/
+
+# Large media / generated media
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.wav
+*.mp3
+*.m4a
+
+# Logs / caches
+*.log
+.cache/
+
+# Local backup copies
+*.backup
+*.before_person_id_patch
+
+# Generated/unrelated image
+Gemini_Generated_Image_*.png
